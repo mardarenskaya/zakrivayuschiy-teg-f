@@ -16,6 +16,8 @@
     --heart-body-color: #00CC14;
     --text-stroke-color: #fff;
     --text-shadow-color: #000;
+    --text-color-difference: #00cc14;
+    --background-color-difference: #00cc14;
     --background-image: repeating-linear-gradient(#000,#000 2px, transparent 2px, transparent 4px), 
     repeating-linear-gradient(90deg,#000,#000 2px, transparent 2px, transparent 4px),
     linear-gradient(#007f0c, #004306);
@@ -32,6 +34,8 @@
     --heart-body-color: #000;
     --text-stroke-color: #fff;
     --text-shadow-color: #000;
+    --text-color-difference: #fff;
+    --background-color-difference: #fff;
     --background-image: repeating-linear-gradient(#d3d3d3,#d3d3d3 2px, transparent 2px, transparent 4px), 
     repeating-linear-gradient(90deg,#d3d3d3,#d3d3d3 2px, transparent 2px, transparent 4px),
     linear-gradient(#e7e7e7, #1a1a1a);
@@ -49,6 +53,8 @@
         --heart-body-color: #00CC14;
         --text-stroke-color: #fff;
         --text-shadow-color: #000;
+        --text-color-difference: #00cc14;
+        --background-color-difference: #00cc14;
         --background-image: repeating-linear-gradient(#000,#000 2px, transparent 2px, transparent 4px), 
         repeating-linear-gradient(90deg,#000,#000 2px, transparent 2px, transparent 4px),
         linear-gradient(#007f0c, #004306);

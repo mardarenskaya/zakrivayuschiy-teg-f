@@ -10,6 +10,8 @@
     --buttom-like-text-color: #FFF;
     --heart-contour-color: #000;
     --heart-filling-color: red;
+    --contour-color: #ff0000;
+    --core-color: var(--accent-color);
     --heart-body-color: #000;
     --text-stroke-color: #fff;
     --text-shadow-color: #000;

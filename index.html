@@ -492,7 +492,7 @@
         <button class="dialog__button button" type="button" 
         onclick="window['dialog-id'].showModal()" 
         aria-controls="dialog-id" >
-        <svg  class="floppy" width="39" height="39" viewBox="0 0 39 39">
+        <svg  class="floppy" width="39" height="39" viewBox="0 0 21 21">
           <use href="./svg/floppy.svg#floppy"></use>
         </svg>
         <span class="button__text">
@@ -501,10 +501,10 @@
       </button>
       </aside>
         
-        <dialog id="dialog-id" class="modal-window">
+        <dialog class="modal-window" id="dialog-id">
           <form class="modal-window_form" method="dialog">
             <div class="modal-window_content" >
-              <svg  class="floppy" width="39" height="39" viewBox="0 0 39 39">
+              <svg  class="floppy__image" viewBox="0 0 39 39">
                 <use href="./svg/floppy.svg#floppy"></use>
               </svg>
               <span class="modal-window_text">
@@ -512,7 +512,7 @@
               </span>
             </div>
             <button class="modal-window_button button" type="submit">
-              <span class="button__text">ок</span>
+              <span class="button__text-dialog">ок</span>
             </button>
           </form>
         </dialog>

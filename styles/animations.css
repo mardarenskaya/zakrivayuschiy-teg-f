@@ -99,34 +99,40 @@
   animation: pulseHeart 0.3s 0.1s none ease-in alternate;
 }
 
-@keyframes arrow_shift {
-  0% {
-    right: 0px;
-  }
-  50% {
-    right: 4px;
-  }
-  100% {
-    right: 0px;
-  }
-} 
-
-@keyframes like-icon-sparks {
-  0% {
-    opacity: 0;
+@keyframes slideArrow {
+  from {
+    inset-inline-start: -20px;
   }
 
-  100% {
-    opacity: 1;
+  to {
+    inset-inline-start: -17px;
   }
 }
 
-@keyframes heart-scale {
-  0% {
-    transform: scale(1);
+@keyframes sparkleFade {
+  from {
+      opacity: 0;
   }
 
-  100% {
-    transform: scale(1.5);
+  50% {
+      opacity: 1;
   }
-}  
+
+  to {
+      opacity: 0;
+  }
+}
+
+@keyframes pulseHeart {
+  from {
+      transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
